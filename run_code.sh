@@ -1,0 +1,12 @@
+python test_data.py --dataroot ./datasets/ntu \
+	--name ntu_gesturegan_twocycle \
+	--model gesturegan_twocycle \
+	--which_model_netG resnet_9blocks \
+	--which_direction AtoB \
+	--dataset_mode aligned \
+	--norm instance \
+	--gpu_ids 0 \
+	--batchSize 1 \
+	--loadSize 256 \
+	--fineSize 256 \
+	--no_flip
